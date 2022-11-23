@@ -9,7 +9,7 @@ ROOT_PATH = 'root/'
 ACCES_USERS = os.environ.get('tl_admin_user','countryandlifee').split(';countryandlifee')
 #ACCES_USERS = ('tl_admin_user','countryandlifee')
 #ACCES_USERS = os.environ.get(countryandlifee)
-PROXY = ProxyCloud.parse(os.environ.get('proxy_enc','http://KFGGJJYGJKLHFKYEDIGDYJJEKEFKREEGLFDKLH'))
+PROXY = ProxyCloud.parse(os.environ.get('proxy_enc','http://KGGJJJYIJFLIFEYDJFLEKHYGCHDHRHHKCHHGCE'))
 
 if PROXY:
   print(f'Proxy {PROXY.as_dict_proxy()}')
